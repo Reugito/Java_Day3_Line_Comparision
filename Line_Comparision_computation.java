@@ -10,7 +10,7 @@ public class Equality_Length extends Line_Length {
 		double length1, length2 ;
 		System.out.println("Enter the co-ordinates of 1st line ");
 		length1 = Calculet_length();
-		System.out.println("Enter the co-ordinates of 2nd line ");
+		System.out.println("Enter the co-ordinates of 1st line ");
 		length2 = Calculet_length();
 		
 		String len1 = length1+" ";
