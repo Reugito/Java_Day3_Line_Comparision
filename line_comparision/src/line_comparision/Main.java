@@ -24,19 +24,20 @@ public class Main {
 		System.out.println(line2.getLength());
 		
 		System.out.println("Result "+line1.equals(line2));
+		
 		String lines1 = ""+line1;
 		String lines2 = ""+line2;
 		int check = (lines1.compareTo(lines2));	
 		if ( check < 0 ) {
-			System.out.println("length2 is greater than length1 by margin of  "+check);
+			System.out.println("line1 is greater than line2 "+check);
 		}
 		
 		else if ( check > 0 ) {
-			System.out.println("length1 is greater than length2 by margin of  "+check);
+			System.out.println("line1 is greater than line2  "+check);
 		}
 		
 		else {
-			System.out.println("length1 is equal to  length2 ");
+			System.out.println("line1 is equal to  line2 ");
 		}
 	}
 

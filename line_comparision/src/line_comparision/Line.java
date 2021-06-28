@@ -5,12 +5,10 @@ import java.util.*;
 public class Line {
 	Point p1, p2;
 	
-
 	@Override
 	public int hashCode() {
 		return Objects.hash(p1, p2);
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {

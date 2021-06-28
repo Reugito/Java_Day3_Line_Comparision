@@ -2,6 +2,7 @@ package line_comparision;
 
 import java.util.Objects;
 
+
 public class Point {
 	float x, y;
 
